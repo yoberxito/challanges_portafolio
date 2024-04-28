@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat',sans-serif;
+}
+header{
+    background-color: #ffffff;
+}
+.menu-principal{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.menu-principal h1{
+    
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+
+}
