@@ -17,6 +17,8 @@ nav{
 nav li{
     display: inline;
     margin: 0 0 0 15px;
+    
+    
 }
 .menu-principal h1{
     
@@ -28,3 +30,50 @@ nav li{
     text-align: center;
 
 }
+nav a:hover{
+    color: blue;
+    text-decoration: wavy;
+}
+.principal{
+    padding: 4em 0;
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal h1{
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 940px;
+}
+
+.descripcion-redes{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.redes-sociales{
+    vertical-align: top; 
+}
+.redes-sociales li{
+    display: inline;
+    width: 2px;
+}
+.items{
+    line-height: 2;
+}
+.descripcion-redes p{
+    width: 40%;
+    display: inline-block ;
+    vertical-align: top; 
+    
+}
+.imagen-profile{
+    width: 60%;
+    float: right;
+    transition: 400ms;
+    box-shadow: 0px 10px 30px 15px #000000;
+    margin: 0 20px 20px 0;
+    
+}
+
